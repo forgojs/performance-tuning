@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "allowJs": false,
+    "target": "ES2015",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "lib": ["es2020", "DOM"],
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "strict": true,
+    "jsx": "react",
+    "jsxFactory": "forgo.createElement",
+    "jsxFragmentFactory": "forgo.Fragment"
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
